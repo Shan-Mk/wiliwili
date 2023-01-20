@@ -11,9 +11,9 @@
         "report": "上傳歷史播放記錄",
         "player_bar": "播放器下方固定顯示進度條",
         "low_quality": "低畫質解碼（以畫質為代價換取更低的功耗）",
-        "in_memory_cache": "解码緩存（Switch上更小的值可减少BUG發生，不過會導致跳轉不流暢）\n",
+        "in_memory_cache": "解碼暫存（Switch上更小的值可减少BUG發生，不過會導致跳轉不流暢）\n",
         "hwdec": "硬體解碼",
-        "auto_play_next_part": "自動播放下一分集",
+        "auto_play_next_part": "自動播放下一集",
         "auto_play_recommend": "自動播放推薦影片",
         "video_format": "影像格式"
       },
@@ -24,10 +24,10 @@
       },
       "others": {
         "header": "其他",
-        "vibration": "手柄振動",
+        "vibration": "手把振動",
         "hide_bottom": "隱藏下方提示欄",
         "hide_fps": "隱藏 FPS",
-        "fullscreen": "全荧幕顯示",
+        "fullscreen": "全螢幕顯示",
         "theme": {
           "header": "主題配色 (需要重啟)",
           "1": "跟隨系統",
@@ -46,7 +46,7 @@
         },
         "opencc": "自動轉換簡體中文 (需要重啓)",
         "keymap": {
-          "header": "鍵位風格",
+          "header": "按鍵風格",
           "xbox": "Xbox",
           "ps": "PlayStation",
           "keyboard": "鍵盤"
@@ -62,7 +62,7 @@
         "open": "應用開啟方式與安裝桌面圖示",
         "error": "軟體內報錯或部份功能不可用",
         "hot_key": "隱藏的快速鍵說明",
-        "font": "設置自訂字型"
+        "font": "設定自訂義字體"
       },
       "test": {
         "header": "診斷訊息",
@@ -81,7 +81,7 @@
       "brief_header": "軟體介紹",
       "repository": "專案首頁",
       "brief": "專為搖桿控制設計的第三方跨平臺B站客戶端\n完美復刻官方PC端B站，滿足日常使用, 目前可以執行在PC全平臺和 Nintendo Switch 上",
-      "repo_header": "開源位址",
+      "repo_header": "開源網址",
       "author_header": "作者發言",
       "author": "一直想做個藝術家, 可惜程式設計師都沒什麽發揮的空間\n直到這個作品誕生，實現了：「在遊戲機上看影片；用手機來玩遊戲」\n或許算得上是一種行為藝術，這樣的話我也就圓滿了"
     },
@@ -94,7 +94,7 @@
       "error_q2": "軟體隨機報錯退出",
       "error_a2": "1. 使用Fat32格式記憶卡\n2. 確保大氣層、系統韌體最新\n3. 等待開發者們修復",
       "font_q1": "如何設定自定義字體或鍵位圖標",
-      "font_a1": "1. 下載所需的字體或圖標字體\n2. 將字體重命名為：font.ttf； 將圖標重命名為：icon.ttf\n3. 將字體放在設定檔目錄中\n4. 重新啟動應用程序",
+      "font_a1": "1. 下載所需的字體或圖標字體\n2. 將字體重命名為：font.ttf； 將圖標重命名為：icon.ttf\n3. 將字體放在設定檔目錄中\n4. 重新啟動應用程式",
       "font_q2": "常見問題",
       "font_a2": "1. wiliwili 優先顯示自定義字體，內寘字體作為備用。\n2. “設定-工具-其他”提供了一個功能表項目，可以快速打開配寘目錄。\n3. 在 Linux 上，wiliwili 使用 xdg-open 打開目錄。 如果無法正確打開設定檔目錄，可以考慮安裝此工具。"
     },
@@ -102,7 +102,7 @@
       "common_header": "通用快速鍵",
       "common_content": " /  切換一級頁面\n  /  切換二級頁面",
       "player_header": "播放器快速鍵",
-      "player_content": " 快進，按兩下  快進鎖定\n  +  向前跳轉視頻（單個  即可完整操控播放）\n  顯示/隱藏播放器OSD \n  顯示/隱藏彈幕"
+      "player_content": " 快進，按兩下  快進鎖定\n  +  向前跳轉影片（單個  即可完整操控播放）\n  顯示/隱藏播放器OSD \n  顯示/隱藏彈幕"
     },
     "net": {
       "test": {
@@ -125,7 +125,7 @@
   },
   "hints": {
     "hint1": "請從桌面選擇任意遊戲並按住  鍵",
-    "hint2": "點擊  打開, 在應用開啟期間保持按住  鍵，直到進入 hbmenu",
+    "hint2": "點擊  打開, 在應用開啟期間保持按住  鍵，直到進入相簿 hbmenu介面",
     "hint3": "在 hbmenu 目錄中選擇 wiliwili",
     "hint4": "可選：安裝 wiliwili NSP 通過桌面圖示直接打開 wiliwili (請將 wiliwili.nro 放置在 /switch/wiliwili.nro)",
     "hint_nsp": "點擊  安裝桌面圖示",
@@ -136,7 +136,7 @@
     "common": {
       "part": "分區",
       "recommend": "推薦",
-      "search": "搜索你感興趣的影片",
+      "search": "搜尋你感興趣的影片",
       "switch": "切換",
       "refresh": "重新整理",
       "last": "上一項",
@@ -184,9 +184,9 @@
       "success": "登入成功",
       "refresh": "重新整理個人資訊",
       "click": "點選登入",
-      "logout": "退出登入當前的賬號 (應用將會退出)",
+      "logout": "退出登入當前的帳號 (應用將會退出)",
       "scan": "掃描二維碼登錄",
-      "loading": "加載二維碼中...",
+      "loading": "載入二維碼中...",
       "hint": "請使用嗶哩嗶哩客戶端掃碼登錄",
       "network_error": "網路錯誤，請重試",
       "qr_not_available": "二維碼失效，請重新進入對話框",
@@ -202,7 +202,7 @@
     "refresh_anime": "重新整理我的追劇",
     "refresh_series": "重新整理我的追番",
     "coin": "硬幣",
-    "following": "關註",
+    "following": "關注",
     "follower": "粉絲",
     "activity": "動態",
     "public": "公開",
@@ -225,7 +225,7 @@
     "current": "人正在看",
     "share": "分享",
     "rights": "未經作者授權，禁止轉載",
-    "fs": "全屏",
+    "fs": "全螢幕",
     "quality": "畫質",
     "not_follow": "取消關注？",
     "coin": {
@@ -255,10 +255,10 @@
       "style": {
         "header": "彈幕風格",
         "area": "彈幕區域",
-        "area_1_4": "1/4 荧幕",
-        "area_2_4": "1/2 荧幕",
-        "area_3_4": "3/4 荧幕",
-        "area_4_4": "全荧幕",
+        "area_1_4": "1/4 螢幕",
+        "area_2_4": "1/2 螢幕",
+        "area_3_4": "3/4 螢幕",
+        "area_4_4": "全螢幕",
         "alpha": "透明度",
         "fontsize": "字體大小",
         "line_height": "彈幕行高",
@@ -267,7 +267,7 @@
         "speed_slow": "慢速",
         "speed_fast_plus": "極速",
         "speed_fast": "快速",
-        "speed_moderate": "適當"
+        "speed_moderate": "適中"
       }
     },
     "single_comment": {
